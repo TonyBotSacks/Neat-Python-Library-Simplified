@@ -24,7 +24,7 @@ The "[environment]" must be a function that takes in observations and predicts a
 
         reset = False
         while not reset:
-
+        net.activate([state])
         ########################
         ########################
         ########################
